@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+---
+
+- [ngx-translate](https://www.npmjs.com/package/@ngx-translate/core?activeTab=versions)
+- `npm i @ngx-translate/core@8.0.0 --s`
+- [http-loader](https://www.npmjs.com/package/@ngx-translate/http-loader)
+- `npm i @ngx-translate/http-loader@2.0.1 --s`
+"# ngx-translate-i18n" 
