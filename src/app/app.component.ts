@@ -1,16 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { DEFAULT } from './app.config';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = { user: 'app' };
-  constructor(private trans: TranslateService) { }
-  ngOnInit() {
-    this.trans.use("en-us");
+  constructor(private trans: TranslateService) {
+    this.trans.use(DEFAULT.LANG);
   }
   changeLanguage(lang: string) {
     this.trans.use(lang);

@@ -1,7 +1,7 @@
 {
-  "HELLO": "Hello {{user}}",
-  "LETS": "Here are some links to help you start",
-  "HERO": "Tour of Heroes",
-  "CLI": "CLI Documentation",
-  "NG2": "Angular blog"
+  "你好": "Hello {{user}}",
+  "以下是一些可幫助您入門的鏈接": "Here are some links to help you start",
+  "英雄之旅": "Tour of Heroes",
+  "CLI文檔": "CLI Documentation",
+  "Angular博客": "Angular blog"
 }
